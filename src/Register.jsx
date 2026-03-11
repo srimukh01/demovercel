@@ -12,7 +12,7 @@ function Reg() {
   };
   const submit = async () => {
     try {
-      const res = await axios.post("http://localhost:8000/reg", data);
+      const res = await axios.post("https://cab-f9u5.onrender.com", data);
       alert(res.data);
     } catch (xyz) {
       alert(xyz.response.data);
