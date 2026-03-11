@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
-import Reg from "./Reg";
+import Reg from "./Register";
 import Home from "./Home";
 
 function App() {
